@@ -32,6 +32,8 @@
        - [FD debug](https://segmentfault.com/a/1190000009724931)
        - [Zero Copy I: User-Mode Perspective ](https://www.linuxjournal.com/article/6345)
 
+- Linux:
+  - [File Descriptor: S.Chinese](https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/linux-jin-cheng)
 
 - Cache
   - Read Through
