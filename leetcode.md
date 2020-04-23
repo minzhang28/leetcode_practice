@@ -10,9 +10,13 @@
 
 - [394. Decode String](https://leetcode.com/problems/decode-string/)
 
-- [94: Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 
 #### Array
 - [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/):
     Pay attention on the solution on this question, it's a typical solution for this kind of problems
+
+
+#### Tree
+- [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+- [94: Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
