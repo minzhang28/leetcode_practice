@@ -20,3 +20,4 @@
 #### Tree
 - [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 - [94: Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+- [145: Binary Tree postorder Traversal ](https://leetcode.com/problems/binary-tree-postorder-traversal/)
