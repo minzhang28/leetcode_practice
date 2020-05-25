@@ -41,5 +41,12 @@
   - Write Through
   - Write back
 
+  - LRU
+    - [leetcode question](https://leetcode.com/problems/lru-cache/)
+    - 
+  - LFU
+    - [leetcode question](https://leetcode.com/problems/lfu-cache/)
+    - [LFU white paper](http://dhruvbird.com/lfu.pdf)
+
   - Reading list
     - [Facebook’s Distributed DataStore for the Social Graph](https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf)
