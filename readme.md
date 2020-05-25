@@ -37,13 +37,12 @@
   - [File Descriptor: S.Chinese](https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/linux-jin-cheng)
 
 - Cache
-  - Read Through
-  - Write Through
-  - Write back
 
+  - Write through cache : This is a caching system where writes go through the cache and write is confirmed as success only if writes to DB and the cache BOTH succeed. This is really useful for applications which write and re-read the information quickly. However, write latency will be higher in this case as there are writes to 2 separate systems.
+  - Write around cache : This is a caching system where write directly goes to the DB. The cache system reads the information from DB incase of a miss. While this ensures lower write load to the cache and faster writes, this can lead to higher read latency incase of applications which write and re-read the information quickly.
+  - Write back cache : This is a caching system where the write is directly done to the caching layer and the write is confirmed as soon as the write to the cache completes. The cache then asynchronously syncs this write to the DB. This would lead to a really quick write latency and high write throughput. But, as is the case with any non-persistent / in-memory write, we stand the risk of losing the data incase the caching layer dies. We can improve our odds by introducing having more than one replica acknowledging the write ( so that we don’t lose data if just one of the replica dies ).
   - LRU
     - [leetcode question](https://leetcode.com/problems/lru-cache/)
-    - 
   - LFU
     - [leetcode question](https://leetcode.com/problems/lfu-cache/)
     - [LFU white paper](http://dhruvbird.com/lfu.pdf)
