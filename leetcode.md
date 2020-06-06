@@ -21,3 +21,9 @@
 - [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 - [94: Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 - [145: Binary Tree postorder Traversal ](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+
+#### Binary Sort
+- [153: find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+   two ways of solving this issue:
+   - O(n): set a variable `min_val`, loop the array, and eventually get the min min_val
+   - O(log n): using binary sort, this is a typical question to use binary sort, similar as question 154 
