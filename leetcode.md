@@ -22,8 +22,19 @@
 - [94: Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 - [145: Binary Tree postorder Traversal ](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
+
+### Sorting
 #### Binary Sort
-- [153: find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-   two ways of solving this issue:
-   - O(n): set a variable `min_val`, loop the array, and eventually get the min min_val
-   - O(log n): using binary sort, this is a typical question to use binary sort, similar as question 154 
+  - [153: find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+     two ways of solving this issue:
+     - O(n): set a variable `min_val`, loop the array, and eventually get the min min_val
+     - O(log n): using binary sort, this is a typical question to use binary sort, similar as question 154
+  typical questions for Binary sorts are
+  - 33
+  - 34
+  - 154
+
+#### [Nation Flag issue](https://en.wikipedia.org/wiki/Dutch_national_flag_problem)
+- [75 sort colors](https://leetcode.com/problems/sort-colors/)
+#### Merge Sort
+- [148. Sort List](https://leetcode.com/problems/sort-list/)
