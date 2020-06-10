@@ -35,6 +35,8 @@
   - 154
 
 #### [Nation Flag issue](https://en.wikipedia.org/wiki/Dutch_national_flag_problem)
+- [s.Chinese explaination](https://mp.weixin.qq.com/s/YcLtbLK_D2V5iQkN5MD0Vg)
 - [75 sort colors](https://leetcode.com/problems/sort-colors/)
+
 #### Merge Sort
 - [148. Sort List](https://leetcode.com/problems/sort-list/)
