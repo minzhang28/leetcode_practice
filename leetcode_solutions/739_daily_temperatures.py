@@ -14,4 +14,22 @@ class Solution:
             
         # print("output is {}".format(output))
         return output
-            
+
+
+### Jun 21st
+class Solution:
+    def dailyTemperatures(self, nums: List[int]) -> List[int]:
+        if not nums:
+            return None
+        else:
+            stack = []
+            result = [0]*len(nums)
+            stack.append(0)
+
+            for i in range(1, len(nums)):
+                while stack and nums[i] > nums[stack[-1]]:
+                    idx = stack.pop()
+                    result[idx] = i - idx
+                else:
+                    stack.append(i)
+            return result
