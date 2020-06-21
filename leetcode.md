@@ -15,7 +15,8 @@
 #### Array
 - [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/):
     Pay attention on the solution on this question, it's a typical solution for this kind of problems
-
+- [27.remove element]()
+   Two pointer is used very often in array, please pay attention. normally have a faster pointer and a slow pointer, we can control it to O(n)
 
 #### Tree
 - [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
