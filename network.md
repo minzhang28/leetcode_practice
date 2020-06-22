@@ -1,6 +1,8 @@
 ## Network
 
 
+#### [TCP in short (S.Chinese)](https://mp.weixin.qq.com/s/fjnChU3MKNc_x-Wk7evLhg)
+This is a short version all in one explaination / performance tunning blog to cover most of the TCP stuff you need for daily work. 
 #### [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
 Shortcuts:
 - TCP segment header
@@ -29,3 +31,5 @@ Shortcuts:
         - RST (1 bit): Reset the connection
         - SYN (1 bit): Synchronize sequence numbers. Only the first packet sent from each end should have this flag set. Some other flags and fields change meaning based on this flag, and some are only valid when it is set, and others when it is clear.
         - FIN (1 bit): Last packet from sender
+
+
