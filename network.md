@@ -1,6 +1,6 @@
 ## Network
 
-#### DNS
+#### [DNS](http://www.ruanyifeng.com/blog/2016/06/dns.html)
 ##### DNS Record Types
 - A
 - CNAME
