@@ -1,4 +1,15 @@
 ## Network
+### Readings
+- http://www.ruanyifeng.com/blog/2012/06/internet_protocol_suite_part_ii.html
+- http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html
+
+
+#### DHCP
+- https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
+
+#### ARP
+- https://en.wikipedia.org/wiki/Address_Resolution_Protocol
+
 
 #### [DNS](http://www.ruanyifeng.com/blog/2016/06/dns.html)
 ##### DNS Record Types
