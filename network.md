@@ -19,6 +19,17 @@
 - What is HTTPDNS
 - Why we need HTTPDNS
 
+##### command to know
+- dig www.google.com
+- dig -x www.google.com
+- dig +trace www.google.com
+- dig ns google.com
+- dig a google.com
+- dig cname google.com
+- host command
+- nslookup command
+- whois command
+
 
 #### [TCP in short (S.Chinese)](https://mp.weixin.qq.com/s/fjnChU3MKNc_x-Wk7evLhg)
 This is a short version all in one explaination / performance tunning blog to cover most of the TCP stuff you need for daily work. 
