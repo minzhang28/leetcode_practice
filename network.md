@@ -1,5 +1,24 @@
 ## Network
 
+#### DNS
+##### DNS Record Types
+- A
+- CNAME
+- PTR
+- MX
+- TXT
+- NS
+- SOA
+
+##### CNAME vs A
+- When/Why you need CNAME record
+- When/Why you need A record
+- What's the differernt between CNAME/A record
+
+##### What is HTTPDNS
+- What is HTTPDNS
+- Why we need HTTPDNS
+
 
 #### [TCP in short (S.Chinese)](https://mp.weixin.qq.com/s/fjnChU3MKNc_x-Wk7evLhg)
 This is a short version all in one explaination / performance tunning blog to cover most of the TCP stuff you need for daily work. 
