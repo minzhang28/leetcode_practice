@@ -10,6 +10,8 @@
 #### ARP
 - https://en.wikipedia.org/wiki/Address_Resolution_Protocol
 
+#### SSL
+- https://segmentfault.com/a/1190000002554673
 
 #### [DNS](http://www.ruanyifeng.com/blog/2016/06/dns.html)
 ##### DNS Record Types
