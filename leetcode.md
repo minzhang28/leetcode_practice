@@ -1,7 +1,6 @@
 ### Leetcode practices
 
 #### Stacks
-
 - [739: Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
   This is a typical usage of monotone stack, refer to this [video(Chinese)](https://leetcode-cn.com/problems/daily-temperatures/solution/leetcode-tu-jie-739mei-ri-wen-du-by-misterbooo/) or this [Medium post (English)](https://medium.com/@vishnuvardhan623/monotonic-stack-e9dcc4fa8c3e) for details
 
@@ -11,6 +10,12 @@
 - [394. Decode String](https://leetcode.com/problems/decode-string/)
 
 
+#### Two pointers
+two pointers are mostly used in sorted array / string, or to optimized the BigO from O(n2) to O(n). 
+
+- [392 is substring](https://leetcode.com/problems/is-subsequence/)
+- [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)  
+- [792.Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)
 
 #### Array
 - [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/):
