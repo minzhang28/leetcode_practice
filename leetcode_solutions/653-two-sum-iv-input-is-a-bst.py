@@ -5,22 +5,21 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def kthSmallest(self, root: TreeNode, k: int) -> int:
-        if not root or not k:
-            return None
+    def findTarget(self, root: TreeNode, k: int) -> bool:
+        if not root and not k:
+            return False
         else:
             stack = []
-            seen = []
-            while root or len(stack) > 0:
+            d = {}
+            while stack or root:
                 if root:
                     stack.append(root)
                     root = root.left
                 else:
                     node = stack.pop()
-                    seen.append(node.val)
+                    if k - node.val in d:
+                        return True
+                    else:
+                        d[node.val] = node.val
                     root = node.right
-                
-            seen.sort()
-            print("result is {}".format(seen))
-            return seen[k-1]
-            
+            return False

@@ -1,6 +1,51 @@
 ## Network
+### Readings
+- http://www.ruanyifeng.com/blog/2012/06/internet_protocol_suite_part_ii.html
+- http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html
 
 
+#### DHCP
+- https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
+
+#### ARP
+- https://en.wikipedia.org/wiki/Address_Resolution_Protocol
+
+#### SSL
+- https://segmentfault.com/a/1190000002554673
+
+#### [DNS](http://www.ruanyifeng.com/blog/2016/06/dns.html)
+##### DNS Record Types
+- A
+- CNAME
+- PTR
+- MX
+- TXT
+- NS
+- SOA
+
+##### CNAME vs A
+- When/Why you need CNAME record
+- When/Why you need A record
+- What's the differernt between CNAME/A record
+
+##### What is HTTPDNS
+- What is HTTPDNS
+- Why we need HTTPDNS
+
+##### command to know
+- dig www.google.com
+- dig -x www.google.com
+- dig +trace www.google.com
+- dig ns google.com
+- dig a google.com
+- dig cname google.com
+- host command
+- nslookup command
+- whois command
+
+
+#### [TCP in short (S.Chinese)](https://mp.weixin.qq.com/s/fjnChU3MKNc_x-Wk7evLhg)
+This is a short version all in one explaination / performance tunning blog to cover most of the TCP stuff you need for daily work. 
 #### [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
 Shortcuts:
 - TCP segment header
@@ -29,3 +74,7 @@ Shortcuts:
         - RST (1 bit): Reset the connection
         - SYN (1 bit): Synchronize sequence numbers. Only the first packet sent from each end should have this flag set. Some other flags and fields change meaning based on this flag, and some are only valid when it is set, and others when it is clear.
         - FIN (1 bit): Last packet from sender
+
+
+#### TCP / UDP Interview Questions
+- https://zhuanlan.zhihu.com/p/108822858
